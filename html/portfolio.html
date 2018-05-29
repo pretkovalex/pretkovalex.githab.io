@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
   <title>Портфолио</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../css/portfolio.css">
+  <link rel="stylesheet" href="../css/animate.css">
 </head>
 <body>
-  <div class="parallax-window" data-parallax="scroll" data-image-src="img/1.jpg">
-
+  <div class="parallax-window" data-parallax="scroll" data-image-src="../img/1.jpg">
      <div class="container">
-      <div class="head col">
+      <div class="head col animated slideInLeft">
         <div class="row">
           <div class="offset-1 col-1 math">
-            <span class="logo animated flip"><a href="index.html">mатeматikа</a></span>
+            <span class="logo"><a href="../index.html">mатeматikа</a></span>
           </div>
           <div class="manu col-8">
             <span class="button"><a href="student.html">Ученикам</a></span><!-- 
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <section>
+      <section class="animated slideInRight">
       <div class="row">
         <div class="offset-1 col-lg-10 achievements">
          <h1 class="offset-5" style="color:rgb(255, 255, 255);top:10%;">Достижения</h1>
@@ -88,10 +88,10 @@
   </section>
 </div>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-<script src="js/jquery.min.js"></script>
-<script src="js/parallax.min.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/parallax.min.js"></script>
 <script>
-  $('.parallax-window').parallax({imageSrc: 'img/1.jpg'});
+  $('.parallax-window').parallax({imageSrc: '../img/1.jpg'});
 </script>
 </body>
 </html>
