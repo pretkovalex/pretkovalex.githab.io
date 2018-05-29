@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+header{
+	background: url(../img/main2.jpg) no-repeat center center;
+	background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+  margin: 0;
+  padding: 0;
+}
+.manu{
+  padding-left: 0%;
+  padding-top: 25%;
+  text-align: center;
+}
+.button{
+  margin: 1%;
+  font-family: "Montserrat-Regular";
+  font-size: 12px;
+}
+.button a {
+  white-space: nowrap;
+  text-decoration: none;
+  outline: none;
+  padding: 15px 15px;
+  position: relative;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button a:before,
+.button a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.button a:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+.button a:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+}
+.button a:hover:before,
+.button a:hover:after{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.button a:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+.button a:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+.button a:hover {background: rgba(255,255,255,.05);}
+.royu{
+  text-align: center;
+  color: rgb(251, 251, 251);
+  -moz-transform: scale(0.84, 0.99);
+  -webkit-transform: scale(0.84, 0.99);
+  -ms-transform: scale(0.84, 0.99);
+}
+.indent{
+  padding-top: 10%;
+}
+.name{
+  font-size: 15px;
+  font-family: "Montserrat-Regular";
+  line-height: 2.941;
+}
+.sait p{
+  font-family: "Montserrat-Regular";
+  font-size: 35px;
+  line-height: 1.5;
+}
+.text_1{
+  padding-top: 2%;
+}
+.lar{
+  margin-top: -2.5%;
+}
+.math {
+  font-size: 15px;
+  font-family: "Montserrat-Light";
+}

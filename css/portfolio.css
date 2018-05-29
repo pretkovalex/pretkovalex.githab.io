@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+.head{
+  background-color: rgba(0, 0, 0, 0.69);
+  padding: 1%;
+  padding-bottom: 5%;
+}
+section{
+  background-color: rgba(0, 0, 0, 0.69);
+  margin-top: 2%;
+}
+.manu{
+  text-align: right;
+  margin-left: 8%;
+  margin-top: 4.5%;
+}
+.button a {
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+  padding: 15px 15px;
+  position: relative;
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button a:hover {background: rgba(0, 101, 86, 0.4);}
+.logo{
+  font-size: 110%;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 25% 40%;
+  margin-top: 45%;
+  position: relative;
+  color: white;
+  border: 2px solid #fff;
+  background: none;
+  font-weight: 400;
+  font-family: "Montserrat-Regular";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.logo:hover{
+  border: 2px solid rgb(83, 255, 226);
+}
+.logo a:hover{
+  color: rgb(83, 255, 226);
+}
+.logo a{
+  color: #fff;
+}
+li{
+  font-family: "Montserrat-Regular";
+  font-size: 17px;
+  color: #e8ebff;
+  line-height: 1.2;
+}
+ul li{
+  margin-top: 1.5%;
+}
+h1{
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  margin-top: 9%;
+  padding-bottom: 2%;
+  color: #fff;
+}
+.achievements{
+  margin-bottom: 17%;
+}
+.hover div:hover{
+  padding: 12%;
+  position: relative;
+  z-index: 100;
+  height: 500px;
+}
+.hover div{
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  height: 400px;
+}
+.img_1{
+  background: url(../img/my/1.jpg) no-repeat center center;
+}
+.img_2{
+  background: url(../img/my/2.jpg) no-repeat center center;
+}
+.img_3{
+  background: url(../img/my/3.jpg) no-repeat center center;
+}
+.img_4{
+  background: url(../img/my/4.jpg) no-repeat center center;
+}
+.img_5{
+  background: url(../img/my/5.jpg) no-repeat center center;
+}
+.img_6{
+  background: url(../img/my/6.jpg) no-repeat center center;
+}
+.img_7{
+  background: url(../img/my/7.jpg) no-repeat center center;
+}
+.img_8{
+  background: url(../img/my/8.jpg) no-repeat center center;
+}
+.img_9{
+  background: url(../img/my/9.jpg) no-repeat center center;
+}
+.img_10{
+  background: url(../img/my/10.jpg) no-repeat center center;
+}
+.img_11{
+  background: url(../img/my/11.jpg) no-repeat center center;
+}
+.img_12{
+  background: url(../img/my/12.jpg) no-repeat center center;
+}
+.img_13{
+  background: url(../img/my/13.jpg) no-repeat center center;
+}
+.img_14{
+  background: url(../img/my/14.jpg) no-repeat center center;
+}
+.img_15{
+  background: url(../img/my/15.jpg) no-repeat center center;
+}
+.img_16{
+  background: url(../img/my/16.jpg) no-repeat center center;
+}
+.img_17{
+  background: url(../img/my/17.jpg) no-repeat center center;
+}
+.img_18{
+  background: url(../img/my/18.jpg) no-repeat center center;
+}
+.img_19{
+  background: url(../img/my/19.jpg) no-repeat center center;
+}
+.img_20{
+  background: url(../img/my/20.jpg) no-repeat center center;
+}
+.img_21{
+  background: url(../img/my/21.jpg) no-repeat center center;
+}
+.img_22{
+  background: url(../img/my/22.jpg) no-repeat center center;
+}
+.img_23{
+  background: url(../img/my/23.jpg) no-repeat center center;
+}
+.img_24{
+  background: url(../img/my/24.jpg) no-repeat center center;
+}
+.img_25{
+  background: url(../img/my/25.jpg) no-repeat center center;
+}
+.img_26{
+  background: url(../img/my/26.jpg) no-repeat center center;
+}
+.img_27{
+  background: url(../img/my/27.jpg) no-repeat center center;
+}
+.img_28{
+  background: url(../img/my/28.jpg) no-repeat center center;
+}

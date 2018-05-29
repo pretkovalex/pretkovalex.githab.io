@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+header{
+  font-family: "Montserrat-Regular";
+}
+.head{
+  background-color: rgba(0, 0, 0, 0.70);
+  padding: 1%;
+  padding-bottom: 5%;
+}
+section{
+  background-color: rgba(0, 0, 0, 0.69);
+  margin-top: 2%;
+}
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+.manu{
+  text-align: right;
+  margin-left: 8%;
+  margin-top: 4.5%;
+}
+.button a {
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+  padding: 15px 15px;
+  position: relative;
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button a:hover {background: rgba(0, 0, 255, 0.4);}
+.logo{
+  font-size: 120%;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 25% 40%;
+  margin-top: 45%;
+  position: relative;
+  color: white;
+  border: 2px solid #fff;
+  background: none;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo:hover{
+  border: 2px solid #0c8;
+}
+
+.logo a{
+  color: #fff;
+}
+
+.img_shoollife img{
+  width: 94%;
+  padding:0%;
+  margin: 3%;
+}
+/*.img_shoollife img:hover{
+  position: relative;
+  text-align: center;
+  width: 110%;
+}*/
